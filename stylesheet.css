@@ -22,8 +22,27 @@ body{
 }
 
 #title{
+    background-image: 
+    linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(21, 50, 67) 90%,
+    rgb(21, 50, 67) 100%
+    );
+
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 300ms;
     margin-left: 300px;
     font-size: 60px;
+    
+}
+
+#title:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
 }
 
 #subtext {
