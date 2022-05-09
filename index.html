@@ -11,8 +11,11 @@
     <title>Character Counter</title>
 </head>
 <body>
+    <div id="clip"></div>
+    <h1 id="title">Character Counter</h1>
+    <h3 id="subtext">This is a sample character counter. 
+        <br></br>Begin typing to see the amount of characters you have left!</h3>
     <div class="wrapper">
-        <h1>Character Counter</h1>
         <textarea name="the-textarea" onkeyup="charcountupdate(this.value)" id="the-textarea" maxlength="400" placeholder="Start Typing..."autofocus></textarea>
         <div id="the-count">
             <span id="charcount"></span>
