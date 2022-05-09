@@ -4,15 +4,38 @@
     box-sizing: border-box;  
 }  
 
+#clip {
+    background-image:url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80");
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    clip-path: polygon(0 0, 33% 0, 63% 100%, 0% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 body{
      font-family: 'Open Sans', sans-serif;
      font-size: 16px;
      background-color: #EEF0EB;
 }
 
+#title{
+    margin-left: 300px;
+    font-size: 60px;
+}
+
+#subtext {
+    margin-left: 500px;
+    color: rgb(21, 50, 67);
+    
+}
+
 .wrapper{
     max-width: 75%;
     margin: auto;
+    margin-top: 150px;
 }
 
 h1{
